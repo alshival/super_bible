@@ -17,9 +17,12 @@ The database only includes the following languages/translations:
          <li>AMP (The Amplified Bible)</li>
          <li>ESV (English Standard Version)</li>
          <li>KJV (King James Version)</li>
-         <li>NASB (New American Standard Bible)</li>
-         <li>NKJV (New King James Version)</li>
          <li>KSGM (King Samuel's Gospel of Mary)</li>
+         <li>NASB (New American Standard Bible)</li>
+         <li>NIV (New International Version)</li>
+         <li>NKJV (New King James Version)</li>
+         <li>WEB (World English Bible)</li>
+         <li>YLT (Young's Literal Translation)</li>
        </ul>
      </li>
      <li> Español (ES)
