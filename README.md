@@ -8,7 +8,7 @@ Individual translations, such as for the English Standard Version ([`SUPER_BIBLE
    <img src="https://github.com/alshival/super_bible/blob/main/zraw_metadata/canvas%20(26).png?raw=true"  width="38%" height="38%">
    </p>
 
-## super_bible - Included Languages/Translations
+## super_bible - Languages/Translations
 The `super_bible` is working towards incorporating more languages and translations. Currently, it includes the following languages/translations:
 
    <ul>
