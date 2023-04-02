@@ -27,7 +27,6 @@ This data was put together with the intention of creating a dataset of the scrip
 
 
 |testament|book|title|chapter|verse|text|version|language|
-
 |:-:|:-:|:--:|:-:|:-:|:-------:|:-:|:-:|
 |OT|	1|	Genesis|	1|	1|	In the beginning, God created the heavens and ...|	ESV|	EN|
 |OT|	1|	Genesis|	1|	2|	The earth was without form and void, and darkn...|	ESV|	EN|
