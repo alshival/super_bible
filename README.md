@@ -54,7 +54,7 @@ This data was put together with the intention of creating a dataset of the scrip
 To summarize how to add additional languages one must:
  1. create the index file for the language `zraw_metadata/{language}_book_index.txt`
  2. create the directory `zraw_data/{language}`. This directory will host the raw files used to generate the `super_bible` dataset.
- 3. rename the raw files to the version abbreviation (e.g. `zraw_data/EN/KJV.csv`).
+ 3. rename the raw files to the version abbreviation (e.g. `KJV.csv` for King James Version).
 
 #### Create the index file
 First, you need to generate `zraw_metadata/{language}_book_index.txt`. For Spanish, see `zraw_metadata/ES_book_index.txt`. For English, see `zraw_metadata/EN_book_index.txt`. These files contain information about the Bibles that are used during import. Any additional languages we wish to add require this index file.
