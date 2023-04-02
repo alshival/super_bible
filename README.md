@@ -3,6 +3,8 @@ A database of verses from the Holy Bible and the Gospel of Mary Magdalene. The `
 
 Individual translations, such as for the English Standard Version (`SUPER_BIBLE/super_bible_ESV`), are also available
 
+The raw files used to construct the `super_bible` dataset can be found in the `zraw_dir/`. The python script `bible_data_prep.ipynb` generates the `super_bible` dataset from raw CSV/TSV files contained in the `zraw_dir/` directory.
+
 The goal is to include as many translations as possible in as many languages as possible, though at the moment, the database only includes the following:
 
    <ul>
@@ -64,4 +66,3 @@ you can just use
     
     select * from esv
     
-The raw files used to construct the `super_bible` dataset can be found in the `zraw_dir/`. The python script `bible_data_prep.ipynb` generates the `super_bible` dataset from raw CSV/TSV files contained in the `zraw_dir/` directory.
