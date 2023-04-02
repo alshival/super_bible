@@ -50,10 +50,11 @@ The goal is to include as many translations as possible in as many languages as 
 
 This data was put together with the intention of creating a dataset of the scripture to train large language models, such as those in openAI's GPT-4, and thus is presented in this repository in its purest form. Thus, the code used to generate the `super_bible` was made flexible enough so that additional languages can be incorporated.
 
+#### Summary
 To summarize how to add additional languages one must:
- 1. create the index file for the language, e.g. `zraw_metadata/ES_book_index.txt`
- 2. create the directory for the language in `zraw_data`, e.g. `zraw_data/ES`, to host the raw files used to generate the `super_bible` dataset.
- 3. rename the raw files to the abbreviation that will be used in the `super_bible` dataset, e.g. `zraw_data/ES/RSEM.tsv`.
+ 1. create the index file for the language `zraw_metadata/{language}_book_index.txt`
+ 2. create the directory `zraw_data/{language}`. This directory will host the raw files used to generate the `super_bible` dataset.
+ 3. rename the raw files to the version abbreviation (e.g. `zraw_data/EN/KJV.csv`).
 
 #### Create the index file
 First, you need to generate `zraw_metadata/{language}_book_index.txt`. For Spanish, see `zraw_metadata/ES_book_index.txt`. For English, see `zraw_metadata/EN_book_index.txt`. These files contain information about the Bibles that are used during import. Any additional languages we wish to add require this index file.
