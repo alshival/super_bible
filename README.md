@@ -46,7 +46,7 @@ The goal is to include as many translations as possible in as many languages as 
      </li>
    </ul>
    
-## Adding additional languages
+### Adding additional languages
 
 This data was put together with the intention of creating a dataset of the scripture to train large language models, such as Chat GPT-4, and is presented in this repository in its rawest form. Thus, the code used to generate the `super_bible` was made flexible enough so that additional languages can be incorporated.
 
