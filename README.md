@@ -32,7 +32,7 @@ The goal is to include as many translations as possible in as many languages as 
 |**testament**|**book**|**title**|**chapter**|**verse**|**text**|**version**|**language**|
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |string|int64|string|int64|int64|string|string|string|
-|OT for old testament. NT for new testament.|Book ID of the book containing the verse.|Title of the book containing the verse.|Chapter containing the verse.|The verse number.|The verse.|The translation abbreviation.|Currently supported langages are English (EN) and Spanish (ES).|
+|OT for old testament. NT for new testament.|Book ID of the book containing the verse.|Title of the book containing the verse.|Chapter containing the verse.|The verse number.|The verse.|The translation abbreviation.|Language abbreviation|
 
 ## Sample Data
 |testament|book|title|chapter|verse|text|version|language|
