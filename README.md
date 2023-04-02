@@ -15,7 +15,7 @@ A database of verses from the Holy Bible and the Gospel of Mary Magdalene. The g
      <li> Spanish
        <ul>
          <li>RV1909 (Reina Valera 1909)</li>
-         <li>RV1859 (Reina Valera 1858 NT)</li>
+         <li>RV1858 (Reina Valera 1858 NT)</li>
          <li>RVG (Reina Valera Gómez 2010)</li>
          <li>RSEM (Rey Samuel's Evangelio de Maria)</li>
        </ul>
