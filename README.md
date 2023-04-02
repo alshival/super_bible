@@ -83,13 +83,12 @@ The python script `bible_data_prep.ipynb` generates the `super_bible` dataset fr
 * `zraw_data/ES` - folder containing raw Spanish files.
 
 #### Generate the raw files
-Here is an example raw file.
+Here is an example raw file. Note the lack of a header row.
 
     1,1,1,En el principio creó Dios el cielo y la tierra.
     1,1,2,"Y la tierra estaba desordenada y vacía, y las tinieblas [estaban] sobre la faz del abismo, y el Espíritu de Dios se movía sobre la faz de las aguas."
     1,1,3,Y dijo Dios: Sea la luz; y fue la luz.
     1,1,4,Y vio Dios que la luz [era] buena y separó Dios la luz de las tinieblas.
-
 
 Getting the scripture in this raw format does take some time, but worth the effort. It streamlines the construction of the `super_bible` dataset to make incorporating additional languages simple. Some of these raw files I found online; others I constructed myself.
 
