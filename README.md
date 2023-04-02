@@ -26,4 +26,4 @@ you can just use
     
     select * from esv
 
-The CSVs (minus KSGM) were obtained [here](http://my-bible-study.appspot.com/), and are stored in the folder `bible_csvs`. There is only one .tsv file in that directory at the moment, which is for King Samuel's Gospel of Mary. Any future translations that we add will be kept there.
+The CSVs (minus KSGM) were obtained [here](http://my-bible-study.appspot.com/), and are stored in the folder `zraw_dir`.
