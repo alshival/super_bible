@@ -1,0 +1,68 @@
+book,osisID,title,total_chapters,testament
+1,Gen,Génesis,50,OT
+2,Exod,Éxodo,40,OT
+3,Lev,Levítico,27,OT
+4,Num,Números,36,OT
+5,Deut,Deuteronomio,34,OT
+6,Josh,Josué,24,OT
+7,Judg,Jueces,21,OT
+8,Ruth,Rut,4,OT
+9,1Sam,1 Samuel,31,OT
+10,2Sam,2 Samuel,24,OT
+11,1Kgs,1 Reyes,22,OT
+12,2Kgs,2 Reyes,25,OT
+13,1Chr,1 Crónicas,29,OT
+14,2Chr,2 Crónicas,36,OT
+15,Ezra,Esdras,10,OT
+16,Neh,Nehemías,13,OT
+17,Esth,Esther,10,OT
+18,Job,Job,42,OT
+19,Ps,Salmos,150,OT
+20,Prov,Proverbios,31,OT
+21,Eccl,Ecclesiastés,12,OT
+22,Song,Canción de canciones,8,OT
+23,Isa,Isaías,66,OT
+24,Jer,Jeremías,52,OT
+25,Lam,Lamentaciones,5,OT
+26,Ezek,Ezequiel,48,OT
+27,Dan,Daniel,12,OT
+28,Hos,Oseas,14,OT
+29,Joel,Joel,3,OT
+30,Amos,Amós,9,OT
+31,Obad,Abdías,1,OT
+32,Jonah,Jonás,4,OT
+33,Mic,Miqueas,7,OT
+34,Nah,Nahum,3,OT
+35,Hab,Habacuc,3,OT
+36,Zeph,Sofonías,3,OT
+37,Hag,Haggeo,2,OT
+38,Zech,Zacarías,14,OT
+39,Mal,Malaquías,4,OT
+40,Matt,Mateo,28,NT
+41,Mark,Marcos,16,NT
+42,Luke,Lucas,24,NT
+43,John,Juan,21,NT
+44,Acts,Hechos,28,NT
+45,Rom,Romanos,16,NT
+46,1Cor,1 Corintios,16,NT
+47,2Cor,2 Corintios,13,NT
+48,Gal,Gálatas,6,NT
+49,Eph,Efesios,6,NT
+50,Phil,Filipenses,4,NT
+51,Col,Colosenses,4,NT
+52,1Thess,1 Tesalonicenses,5,NT
+53,2Thess,2 Tesalonicenses,3,NT
+54,1Tim,1 Timoteo,6,NT
+55,2Tim,2 Timoteo,4,NT
+56,Titus,Tito,3,NT
+57,Phim,Filemón,1,NT
+58,Heb,Hebreos,13,NT
+59,Jas,Santiago,5,NT
+60,1Pet,1 Pedro,5,NT
+61,2Pet,2 Pedro,3,NT
+62,1John,1 Juan,5,NT
+63,2John,2 Juan,1,NT
+64,3John,3 Juan,1,NT
+65,Jude,Judas,1,NT
+66,Rev,Revelación,22,NT
+777,Mar,Evangelio de Maria,4,NT
