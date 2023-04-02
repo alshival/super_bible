@@ -61,6 +61,17 @@ To summarize how to add additional languages one must:
 #### Create the index file
 First, you need to generate `zraw_metadata/{language}_book_index.txt`. For Spanish, see `zraw_metadata/ES_book_index.txt`. For English, see `zraw_metadata/EN_book_index.txt`. These files contain information about the Bibles that are used during import. Any additional languages we wish to add require this index file.
 
+Here is what an index file would look like
+
+    book,osisID,title,total_chapters,testament
+    1,Gen,Génesis,50,OT
+    2,Exod,Éxodo,40,OT
+    3,Lev,Levítico,27,OT
+    4,...
+    65	Jude	Judas	1	NT
+	 66	Rev	Revelación	22	NT
+    777	Mar	Evangelio de Maria	4	NT
+
 #### Create the language directory
 The python script `bible_data_prep.ipynb` generates the `super_bible` dataset from raw CSV/TSV files contained in the `zraw_data/` directory. Within `zraw_data/` are folders labeled with the language abbreviation:
 
