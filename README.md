@@ -16,7 +16,7 @@ The `master_bible` dataset is contained in the folder `MASTER_BIBLE`. In there, 
 So instead of typing 
     
     select * from master_bible
-    where version = 'ESV'
+        where version = 'ESV'
 
 you can just use 
     
