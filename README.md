@@ -1,24 +1,23 @@
 # super_bible
 A database of verses from the Holy Bible and the Gospel of Mary Magdalene. The goal is to include as many translations as possible in as many languages as possible, though at the moment, the database only includes the following:
 
-    * Efrom AMP, ESV, KJV, KSGM (King Samuel's Gospel of Mary), NASB, NKJV.
-<ol>
-  <li>English
-    <ol>
-      <li>AMP</li>
-      <li>ESV</li>
-      <li>KJV</li>
-      <li>KSGM (King Samuel's Gospel of Mary)</li>
-      <li>NASB</li>
-      <li>NKJV</li>
-    </ol>
-  </li>
-  <li> Spanish
-    <ol>
-        <li>RSEM (Rey Samuel's Evangelio de Maria)</li>
-    </ol>
-  </li>
-</ol>
+   <ul>
+     <li>English
+       <ul>
+         <li>AMP</li>
+         <li>ESV</li>
+         <li>KJV</li>
+         <li>KSGM (King Samuel's Gospel of Mary)</li>
+         <li>NASB</li>
+         <li>NKJV</li>
+       </ul>
+     </li>
+     <li> Spanish
+       <ul>
+           <li>RSEM (Rey Samuel's Evangelio de Maria)</li>
+       </ul>
+     </li>
+   </ul>
 
 This data was put together with the intention of creating a dataset of the scripture to train large language models, such as Chat GPT-4, and is presented in this repository in its rawest form.
 
