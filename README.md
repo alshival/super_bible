@@ -48,7 +48,7 @@ The goal is to include as many translations as possible in as many languages as 
    
 ### Adding additional languages
 
-This data was put together with the intention of creating a dataset of the scripture to train large language models, such as Chat GPT-4, and is presented in this repository in its rawest form. Thus, the code used to generate the `super_bible` was made flexible enough so that additional languages can be incorporated.
+This data was put together with the intention of creating a dataset of the scripture to train large language models, such as those in openAI's GPT-4, and thus is presented in this repository in its purest form. Thus, the code used to generate the `super_bible` was made flexible enough so that additional languages can be incorporated.
 
 The python script `bible_data_prep.ipynb` generates the `super_bible` dataset from raw CSV/TSV files contained in the `zraw_dir/` directory. Within `zraw_dir/` are folders labeled with the language abbreviation:
 
