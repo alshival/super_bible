@@ -50,14 +50,19 @@ The goal is to include as many translations as possible in as many languages as 
 
 This data was put together with the intention of creating a dataset of the scripture to train large language models, such as Chat GPT-4, and is presented in this repository in its rawest form. Thus, the code used to generate the `super_bible` was made flexible enough so that additional languages can be incorporated.
 
-The python script `bible_data_prep.ipynb` generates the `super_bible` dataset from raw CSV/TSV files contained in the `zraw_dir/` directory. Within `zraw_dir/` are folders labeled with the language abbreviation.
+The python script `bible_data_prep.ipynb` generates the `super_bible` dataset from raw CSV/TSV files contained in the `zraw_dir/` directory. Within `zraw_dir/` are folders labeled with the language abbreviation:
 
 * `zraw_dir/EN` - folder containing raw English files.
 * `zraw_dir/ES` - folder containing raw Spanish files.
 
-To add additional languages, one must create the corresponding folder and add the raw files in the correct format. Furthermore, the filename should be the name of the translation abbreviation. See the language directories in the `zraw_dir` folder for examples.
+To add additional languages, one must create the corresponding folder and add the raw files in the correct format. Furthermore, the filename should be the name of the translation abbreviation. Here are some examples:
 
-The raw files used to construct the `super_bible` dataset can be found in the `zraw_dir/`. Getting the scripture in this raw format does take some time, but worth the effort. Some of these I found online; others I constructed myself. The script is written in such a way that makes it easy to incorporate additional languages. 
+```
+zraw_dir/EN/ESV.csv
+zraw_dir/ES/RSEM.csv
+```
+
+Getting the scripture in this raw format does take some time, but worth the effort. It streamlines the construction of the `super_bible` dataset to make incorporating additional languages simple. Some of these raw files I found online; others I constructed myself.
 
 The SQLite3 database contains the `super_bible` in a table titled as such, along with a few useful SQL views:
 
