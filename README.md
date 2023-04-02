@@ -50,17 +50,22 @@ The goal is to include as many translations as possible in as many languages as 
 
 This data was put together with the intention of creating a dataset of the scripture to train large language models, such as those in openAI's GPT-4, and thus is presented in this repository in its purest form. Thus, the code used to generate the `super_bible` was made flexible enough so that additional languages can be incorporated.
 
-The python script `bible_data_prep.ipynb` generates the `super_bible` dataset from raw CSV/TSV files contained in the `zraw_dir/` directory. Within `zraw_dir/` are folders labeled with the language abbreviation:
+To summarize how to add additional languages one must:
+ 1. create the index file for the language, e.g. `zraw_metadata/ES_book_index.txt`
+ 2. create the directory for the language in `zraw_data`, e.g. `zraw_data/ES`, to host the raw files used to generate the `super_bible` dataset.
+ 3. rename the raw files to the abbreviation that will be used in the `super_bible` dataset, e.g. `zraw_data/ES/RSEM.tsv`.
 
-* `zraw_dir/EN` - folder containing raw English files.
-* `zraw_dir/ES` - folder containing raw Spanish files.
+#### Create the index file
+First, you need to generate `zraw_metadata/{language}_book_index.txt`. For Spanish, see `zraw_metadata/ES_book_index.txt`. For English, see `zraw_metadata/EN_book_index.txt`. These files contain information about the Bibles that are used during import. Any additional languages we wish to add require this index file.
 
-To add additional languages, one must create the corresponding folder and add the raw files in the correct format. Furthermore, the filename should be the name of the translation abbreviation. Here are some examples:
+#### Create the language directory
+The python script `bible_data_prep.ipynb` generates the `super_bible` dataset from raw CSV/TSV files contained in the `zraw_data/` directory. Within `zraw_data/` are folders labeled with the language abbreviation:
 
-```
-zraw_dir/EN/ESV.csv
-zraw_dir/ES/RSEM.csv
-```
+* `zraw_data/EN` - folder containing raw English files.
+* `zraw_data/ES` - folder containing raw Spanish files.
+
+#### Rename the raw files
+The script picks up the filename and uses it to fill the version field in the `super_bible` dataset. Therefore, it is important that you rename the file with the correct abbreviation. For the English Standard Bible (ESV), the required path+filename would be `zraw_data/EN/ESV.csv`. For Rey Samuel's Evangelio de Maria (RSEM), the required path+filename would be zraw_data/ES/RSEM.csv. And so on by induction.
 
 Getting the scripture in this raw format does take some time, but worth the effort. It streamlines the construction of the `super_bible` dataset to make incorporating additional languages simple. Some of these raw files I found online; others I constructed myself.
 
