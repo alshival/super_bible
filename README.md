@@ -1,5 +1,5 @@
 # super_bible
-A database of verses from the Holy Bible and the Gospel of Mary Magdalene. The `super_bible` database can be downloaded as a CSV file ([`SUPER_BIBLE/super_bible.csv`](super_bible/SUPER_BIBLE/super_bible.csv)), a pickle file ([`SUPER_BIBLE/super_bible.pkl`](https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/super_bible.pkl)) for importing into python's pandas, or a SQLite3 database ([`SUPER_BIBLE/super_bible.db`](https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/super_bible.db)). 
+A database of verses from the Holy Bible and the Gospel of Mary Magdalene. The goal is to include as many translations as possible in as many languages as possible, though at the moment, only Engish and Spanish are supported. The `super_bible` database can be downloaded as a CSV file ([`SUPER_BIBLE/super_bible.csv`](super_bible/SUPER_BIBLE/super_bible.csv)), a pickle file ([`SUPER_BIBLE/super_bible.pkl`](https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/super_bible.pkl)) for importing into python's pandas, or a SQLite3 database ([`SUPER_BIBLE/super_bible.db`](https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/super_bible.db)). 
 
 Individual translations, such as for the English Standard Version ([`SUPER_BIBLE/version_files/super_bible_ESV.csv`](https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_ESV.csv)), are also available.
 
@@ -9,7 +9,7 @@ Individual translations, such as for the English Standard Version ([`SUPER_BIBLE
    </p>
 
 ## super_bible: Included Languages/Translations
-The goal is to include as many translations as possible in as many languages as possible, though at the moment, the database only includes the following:
+The database only includes the following languages/translations:
 
    <ul>
      <li>English (EN)
