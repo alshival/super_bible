@@ -25,17 +25,9 @@ A database of verses from the Holy Bible and the Gospel of Mary Magdalene. The g
 This data was put together with the intention of creating a dataset of the scripture to train large language models, such as Chat GPT-4, and is presented in this repository in its rawest form.
 
 |testament|book|title|chapter|verse|text|version|language|
-|:---:|:---:|:---:|:---:|:---:|:------:|:---:|:---:|
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |string|int64|string|int64|int64|string|string|string|
-
-* **testament** - OT for old testament. NT for new testament.
-* **book** - Book ID of the book containing the verse.(Genesis:1, Exodus:2,...,Matthew:40,Mark:41,...etc.)
-* **title** - Title of the book containing the verse.
-* **chapter** - Chapter containing the verse.
-* **text** - The verse.
-* **version** - The translation abbreviation (e.g. KSGM for [King Samuel's Gospel of Mary Magdalene](www.gospelmarymagdalene.com)).
-* **language** - Currently supported langages are English (EN) and Spanish (ES).
-
+|OT for old testament. NT for new testament.|Book ID of the book containing the verse.(Genesis:1, Exodus:2,...,Matthew:40,Mark:41,...etc.)|Title of the book containing the verse.|Chapter containing the verse.|The verse.|The translation abbreviation (e.g. KSGM for [King Samuel's Gospel of Mary Magdalene](www.gospelmarymagdalene.com)).|Currently supported langages are English (EN) and Spanish (ES).|
 
 |testament|book|title|chapter|verse|text|version|language|
 |:-:|:-:|:--:|:-:|:-:|:-------:|:-:|:-:|
