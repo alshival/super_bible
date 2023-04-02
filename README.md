@@ -66,7 +66,7 @@ The python script `bible_data_prep.ipynb` generates the `super_bible` dataset fr
 * `zraw_data/ES` - folder containing raw Spanish files.
 
 #### Rename the raw files
-The script picks up the filename and uses it to fill the version field in the `super_bible` dataset. Therefore, it is important that you rename the file with the correct abbreviation. For the English Standard Bible (ESV), the required *path+filename* would be `zraw_data/EN/ESV.csv`. For Rey Samuel's Evangelio de Maria (RSEM), the required *path+filename* would be zraw_data/ES/RSEM.csv. And so on by induction.
+The script picks up the filename and uses it to fill the version field in the `super_bible` dataset. Therefore, it is important that you rename the file with the correct abbreviation. For the English Standard Bible (ESV), the required *path+filename* would be `zraw_data/EN/ESV.csv`. For Rey Samuel's Evangelio de Maria (RSEM), the required *path+filename* would be `zraw_data/ES/RSEM.csv. And so on by induction`.
 
 Getting the scripture in this raw format does take some time, but worth the effort. It streamlines the construction of the `super_bible` dataset to make incorporating additional languages simple. Some of these raw files I found online; others I constructed myself.
 
