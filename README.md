@@ -68,9 +68,10 @@ Here is what an index file would look like
     2,Exod,Éxodo,40,OT
     3,Lev,Levítico,27,OT
     4,...
-    65	Jude	Judas	1	NT
-	 66	Rev	Revelación	22	NT
-    777	Mar	Evangelio de Maria	4	NT
+    64,3John,3 Juan,1,NT
+    65,Jude,Judas,1,NT
+    66,Rev,Revelación,22,NT
+    777,Mar,Evangelio de Maria,4,NT
 
 #### Create the language directory
 The python script `bible_data_prep.ipynb` generates the `super_bible` dataset from raw CSV/TSV files contained in the `zraw_data/` directory. Within `zraw_data/` are folders labeled with the language abbreviation:
