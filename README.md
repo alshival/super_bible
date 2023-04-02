@@ -7,7 +7,7 @@ Individual translations, such as for the English Standard Version (`SUPER_BIBLE/
 The goal is to include as many translations as possible in as many languages as possible, though at the moment, the database only includes the following:
 
    <ul>
-     <li>English
+     <li>English (EN)
        <ul>
          <li>AMP (The Amplified Bible)</li>
          <li>ESV (English Standard Version)</li>
@@ -17,7 +17,7 @@ The goal is to include as many translations as possible in as many languages as 
          <li>KSGM (King Samuel's Gospel of Mary)</li>
        </ul>
      </li>
-     <li> Spanish
+     <li> Español (ES)
        <ul>
          <li>RV1909 (Reina Valera 1909)</li>
          <li>RV1858 (Reina Valera 1858 NT)</li>
