@@ -60,7 +60,7 @@ To summarize how to add additional languages one must:
  4. rename the raw files to the version abbreviation (e.g. `KJV.csv` for King James Version).
 
 ### Create the index file
-First, you need to generate `zraw_metadata/{language}_book_index.txt`. For Spanish, see `zraw_metadata/ES_book_index.txt`. For English, see `zraw_metadata/EN_book_index.txt`. These files contain information about the Bibles that are used during import. Any additional languages we wish to add require this index file.
+First, you need to generate `zraw_metadata/{language}_book_index.txt`. Any additional languages we wish to add require this index file. As example files, see [`zraw_metadata/ES_book_index.txt`](https://github.com/alshival/super_bible/blob/main/zraw_metadata/ES_book_index.txt) and [`zraw_metadata/EN_book_index.txt`](https://github.com/alshival/super_bible/blob/main/zraw_metadata/EN_book_index.txt). These files contain information about the Bibles that are used during import. 
 
 Here is what an index file would look like, though the only fields used are `book`,`title`, and `testament`. 
 
