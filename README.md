@@ -13,4 +13,13 @@ The `master_bible` dataset is contained in the folder `MASTER_BIBLE`. In there, 
       select * from master_bible
       where version = 'ESV'
 
+So instead of typing 
+    
+    select * from master_bible
+    where version = 'ESV'
+
+you can just use 
+    
+    select * from esv
+
 The CSVs (minus KSGM) were obtained [here](http://my-bible-study.appspot.com/), and are stored in the folder `bible_csvs`. There is only one .tsv file in that directory at the moment, which is for King Samuel's Gospel of Mary. Any future translations that we add will be kept there.
