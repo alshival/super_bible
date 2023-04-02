@@ -7,4 +7,10 @@ This data was put together with the intention of creating a dataset of the scrip
 |:---:|:---:|:---:|:---:|:---:|:------:|:---:|
 |string|int64|string|int64|int64|string|string|
 
+The `master_bible` dataset is contained in the folder `MASTER_BIBLE`. In there, you will find a `.pkl` file which can be imported easily into python using Pandas. There is also a CSV file and a SQLite3 database. The SQLite3 database contains the `master_bible` in a table titled as such, along with a few useful SQL views:
+
+    create view ESV as
+      select * from master_bible
+      where version = 'ESV'
+
 The CSVs (minus KSGM) were obtained [here](http://my-bible-study.appspot.com/), and are stored in the folder `bible_csvs`. There is only one .tsv file in that directory at the moment, which is for King Samuel's Gospel of Mary. Any future translations that we add will be kept there.
