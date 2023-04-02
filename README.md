@@ -1,7 +1,7 @@
 # super_bible
 A database of verses from the Holy Bible and the Gospel of Mary Magdalene. The `super_bible` database can be downloaded as a CSV file (`SUPER_BIBLE/super_bible.csv`), a pickle file (`SUPER_BIBLE/super_bible.pkl`) for importing into python's pandas, and a SQLite3 database (`SUPER_BIBLE/super_bible.db`). 
 
-Individual translations, such as for the English Standard Version (`SUPER_BIBLE/super_bible_ESV), are also available
+Individual translations, such as for the English Standard Version (`SUPER_BIBLE/super_bible_ESV`), are also available
 
 The goal is to include as many translations as possible in as many languages as possible, though at the moment, the database only includes the following:
 
@@ -28,13 +28,13 @@ The goal is to include as many translations as possible in as many languages as 
 
 This data was put together with the intention of creating a dataset of the scripture to train large language models, such as Chat GPT-4, and is presented in this repository in its rawest form.
 
-### Data Fields Chart
+## Data Fields Chart
 |**testament**|**book**|**title**|**chapter**|**verse**|**text**|**version**|**language**|
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |string|int64|string|int64|int64|string|string|string|
 |OT for old testament. NT for new testament.|Book ID of the book containing the verse.|Title of the book containing the verse.|Chapter containing the verse.|The verse number.|The verse|The translation abbreviation (e.g. KSGM for [King Samuel's Gospel of Mary Magdalene](www.gospelmarymagdalene.com)).|Currently supported langages are English (EN) and Spanish (ES).|
 
-### Sample Data
+## Sample Data
 |testament|book|title|chapter|verse|text|version|language|
 |:-:|:-:|:--:|:-:|:-:|:-------:|:-:|:-:|
 |OT|	1|	Genesis|	1|	1|	In the beginning, God created the heavens and ...|	ESV|	EN|
@@ -49,7 +49,7 @@ This data was put together with the intention of creating a dataset of the scrip
 |NT|	777|	Evangelio de Maria Magdalena|	4|	123|	Rey Samuel's El Evangelio de Maria	|RSEM|	ES|
 
 
-The `super_bible` dataset is contained in the folder `SUPER_BIBLE`.You will also find .csv files for each individual translation in the `super_bible` format. You will also find a `super_bible.pkl` file which can be imported easily into python using Pandas.  I like pickle files because I sometimes use them to share pre-trained machine-learning models. There is also a CSV file and a SQLite3 database. The SQLite3 database contains the `super_bible` in a table titled as such, along with a few useful SQL views:
+The SQLite3 database contains the `super_bible` in a table titled as such, along with a few useful SQL views:
 
     create view ESV as
       select * from super_bible
@@ -63,3 +63,5 @@ So instead of typing
 you can just use 
     
     select * from esv
+    
+The raw files used to construct the `super_bible` dataset can be found in the `zraw_dir/`. The python script `bible_data_prep.ipynb` generates the `super_bible` dataset from raw CSV/TSV files contained in the `zraw_dir/` directory.
