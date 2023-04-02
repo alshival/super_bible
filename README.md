@@ -68,8 +68,8 @@ Here is what an index file would look like
     2,Exod,Éxodo,40,OT
     3,Lev,Levítico,27,OT
     4,...
-    64,3John,3 Juan,1,NT
-    65,Jude,Judas,1,NT
+    64,3Juan,3 Juan,1,NT
+    65,Jud,Judas,1,NT
     66,Rev,Revelación,22,NT
     777,Mar,Evangelio de Maria,4,NT
 
