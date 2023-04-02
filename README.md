@@ -27,12 +27,13 @@ This data was put together with the intention of creating a dataset of the scrip
 
 
 |testament|book|title|chapter|verse|text|version|language|
+
 |:-:|:-:|:--:|:-:|:-:|:-------:|:-:|:-:|
-|OT|	1|	Genesis|	1|	1|	IN THE beginning God (prepared formed fashione...	|AMP|	EN|
-|OT|	1|	Genesis|	1|	2|	The earth was without form and an empty waste ...	|AMP|	EN|
-|OT|	1|	Genesis|	1|	3|	And God said Let there be light; and there was...	|AMP|	EN|
-|OT|	1|	Genesis|	1|	4|	And God saw that the light was good (suitable ...	|AMP|	EN|
-|OT|	1|	Genesis|	1|	5|	And God called the light Day and the darkness ...	|AMP|	EN|
+|OT|	1|	Genesis|	1|	1|	In the beginning, God created the heavens and ...|	ESV|	EN|
+|OT|	1|	Genesis|	1|	2|	The earth was without form and void, and darkn...|	ESV|	EN|
+|OT|	1|	Genesis|	1|	3|	And God said, "Let there be light," and there ...|	ESV|	EN|
+|OT|	1|	Genesis|	1|	4|	And God saw that the light was good. And God s...|	ESV|	EN|
+|OT|	1|	Genesis|	1|	5|	God called the light Day, and the darkness he ...|	ESV|	EN|
 |...|	...|	...|	...|	...|	...|	...|	...|
 |NT|	777|	Evangelio de Maria Magdalena|	4|	119|	como él nos mandó.	|RSEM|	ES|
 |NT|	777|	Evangelio de Maria Magdalena|	4|	120|	Debemos predicar el evangelio y no establecer ...	|RSEM|	ES|
