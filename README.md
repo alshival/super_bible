@@ -6,10 +6,10 @@ A database of verses from the Holy Bible and the Gospel of Mary Magdalene. The g
        <ul>
          <li>AMP (The Amplified Bible)</li>
          <li>ESV (English Standard Version)</li>
-         <li>KSGM (King Samuel's Gospel of Mary)</li>
+         <li>KJV (King James Version)</li>
          <li>NASB (New American Standard Bible)</li>
          <li>NKJV (New King James Version)</li>
-         <li>KJV (King James Version)</li>
+         <li>KSGM (King Samuel's Gospel of Mary)</li>
        </ul>
      </li>
      <li> Spanish
