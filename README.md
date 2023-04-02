@@ -5,7 +5,7 @@ Individual translations, such as for the English Standard Version ([`SUPER_BIBLE
 
 <p align="center">
    <img src="https://github.com/alshival/super_bible/blob/main/zraw_metadata/canvas%20-%202023-01-25T022442.478.png?raw=true"  width="60%" height="60%">
-   <img src="https://github.com/alshival/super_bible/blob/main/zraw_metadata/canvas%20(26).png?raw=true"  width="33%" height="33%">
+   <img src="https://github.com/alshival/super_bible/blob/main/zraw_metadata/canvas%20(26).png?raw=true"  width="35%" height="35%">
    </p>
 
 ## super_bible: Included Languages/Translations
