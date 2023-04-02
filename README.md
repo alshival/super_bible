@@ -93,9 +93,9 @@ Getting the scripture in this raw format does take some time, but worth the effo
 ### Rename the raw files
 The script picks up the filename and uses it to fill the version field in the `super_bible` dataset. Therefore, it is important that you rename the file with the correct abbreviation. For the English Standard Bible (ESV), the required *path+filename* would be `zraw_data/EN/ESV.csv`. For Rey Samuel's Evangelio de Maria (RSEM), the required *path+filename* would be `zraw_data/ES/RSEM.csv. And so on by induction`.
 
-# super_bible.db
+# [`super_bible.db`](https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/super_bible.db)
 
-The SQLite3 database `SUPER_BIBLE/super_bible.db` contains the `super_bible` in a table titled as such, along with a few useful SQL views:
+The SQLite3 database [`SUPER_BIBLE/super_bible.db`](https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/super_bible.db) contains the `super_bible` in a table titled as such, along with a few useful SQL views:
 
     create view ESV as
       select * from super_bible
