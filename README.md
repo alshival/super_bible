@@ -3,7 +3,7 @@ A database of verses from the Holy Bible and the Gospel of Mary Magdalene. The `
 
 Individual translations, such as for the English Standard Version (`SUPER_BIBLE/version_files/super_bible_ESV.pkl`), are also available.
 
-![Artwork by King Samuel](zraw_metadata/canvas - 2023-01-25T022442.478.png](https://github.com/alshival/super_bible/blob/main/zraw_metadata/canvas%20-%202023-01-25T022442.478.png?raw=true)
+![Artwork by King Samuel](https://github.com/alshival/super_bible/blob/main/zraw_metadata/canvas%20-%202023-01-25T022442.478.png?raw=true)
 
 ## super_bible: Included Languages/Translations
 The goal is to include as many translations as possible in as many languages as possible, though at the moment, the database only includes the following:
