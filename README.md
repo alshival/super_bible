@@ -69,8 +69,6 @@ Here is what an index file would look like, though the only fields used are `boo
     66,Rev,Revelación,22,NT
     777,Mar,Evangelio de Maria,4,NT
 
-The fields
-
 ### Create the language directory
 The python script `bible_data_prep.ipynb` generates the `super_bible` dataset from raw CSV/TSV files contained in the `zraw_data/` directory. Within `zraw_data/` are folders labeled with the language abbreviation:
 
