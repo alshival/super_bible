@@ -1,5 +1,5 @@
 # master_bible
-A database of verses from the Holy Bible and the Gospel of Mary Magdalene. The goal is to include as many translations as possible in as many languages as possible, though at the moment, the database only contains entries for versus from AMP,ESV,KJV,KSGM (King Samuel's Gospel of Mary), NASB, and NKJV.
+A database of verses from the Holy Bible and the Gospel of Mary Magdalene. The goal is to include as many translations as possible in as many languages as possible, though at the moment, the database only contains entries for versus from AMP, ESV, KJV, KSGM (King Samuel's Gospel of Mary), NASB, and NKJV.
 
 This data was put together with the intention of creating a dataset of the scripture to train large language models, such as Chat GPT-4, and is presented in this repository in its rawest form.
 
