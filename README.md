@@ -4,17 +4,20 @@ A database of verses from the Holy Bible and the Gospel of Mary Magdalene. The g
    <ul>
      <li>English
        <ul>
-         <li>AMP</li>
-         <li>ESV</li>
-         <li>KJV</li>
+         <li>AMP (The Amplified Bible)</li>
+         <li>ESV (English Standard Version)</li>
          <li>KSGM (King Samuel's Gospel of Mary)</li>
-         <li>NASB</li>
-         <li>NKJV</li>
+         <li>NASB (New American Standard Bible)</li>
+         <li>NKJV (New King James Version)</li>
+         <li>KJV (King James Version)</li>
        </ul>
      </li>
      <li> Spanish
        <ul>
-           <li>RSEM (Rey Samuel's Evangelio de Maria)</li>
+         <li>RV1909 (Reina Valera 1909)</li>
+         <li>RV1859 (Reina Valera 1858 NT)</li>
+         <li>RVG (Reina Valera Gómez 2010)</li>
+         <li>RSEM (Rey Samuel's Evangelio de Maria)</li>
        </ul>
      </li>
    </ul>
