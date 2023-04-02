@@ -26,6 +26,19 @@ This data was put together with the intention of creating a dataset of the scrip
 |string|int64|string|int64|int64|string|string|
 
 
+|testament|book|title|chapter|verse|text|version|language|
+|:-:|:-:|:--:|:-:|:-:|:-------:|:-:|:-:|
+|0|	OT|	1|	Genesis|	1|	1|	IN THE beginning God (prepared formed fashione...	|AMP|	EN|
+|1|	OT|	1|	Genesis|	1|	2|	The earth was without form and an empty waste ...	|AMP|	EN|
+|2|	OT|	1|	Genesis|	1|	3|	And God said Let there be light; and there was...	|AMP|	EN|
+|3|	OT|	1|	Genesis|	1|	4|	And God saw that the light was good (suitable ...	|AMP|	EN|
+|4|	OT|	1|	Genesis|	1|	5|	And God called the light Day and the darkness ...	|AMP|	EN|
+|...|	...|	...|	...|	...|	...|	...|	...|	...|
+|118|	NT|	777|	Evangelio de Maria Magdalena|	4|	119|	como él nos mandó.	|RSEM|	ES|
+|119|	NT|	777|	Evangelio de Maria Magdalena|	4|	120|	Debemos predicar el evangelio y no establecer ...	|RSEM|	ES|
+|121|	NT|	777|	Evangelio de Maria Magdalena|	4|	122|	Después que Levi termino de hablar, se fueron ...	|RSEM|	ES|
+|122|	NT|	777|	Evangelio de Maria Magdalena|	4|	123|	Rey Samuel's El Evangelio de Maria	|RSEM|	ES|
+
 
 The `super_bible` dataset is contained in the folder `SUPER_BIBLE`.You will also find .csv files for each individual translation in the `super_bible` format. You will also find a `super_bible.pkl` file which can be imported easily into python using Pandas.  I like pickle files because I sometimes use them to share pre-trained machine-learning models. There is also a CSV file and a SQLite3 database. The SQLite3 database contains the `super_bible` in a table titled as such, along with a few useful SQL views:
 
