@@ -64,6 +64,8 @@ zraw_dir/ES/RSEM.csv
 
 Getting the scripture in this raw format does take some time, but worth the effort. It streamlines the construction of the `super_bible` dataset to make incorporating additional languages simple. Some of these raw files I found online; others I constructed myself.
 
+# super_bible.db
+
 The SQLite3 database contains the `super_bible` in a table titled as such, along with a few useful SQL views:
 
     create view ESV as
