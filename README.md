@@ -66,7 +66,7 @@ Getting the scripture in this raw format does take some time, but worth the effo
 
 # super_bible.db
 
-The SQLite3 database contains the `super_bible` in a table titled as such, along with a few useful SQL views:
+The SQLite3 database `SUPER_BIBLE/super_bible.db` contains the `super_bible` in a table titled as such, along with a few useful SQL views:
 
     create view ESV as
       select * from super_bible
