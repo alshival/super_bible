@@ -107,3 +107,23 @@ you can just use
     
     select * from esv
     
+You can use the SQLite database with Python as well:
+    
+    import pandas as pd
+    import sqlite3
+    
+    db = sqlite3.connect('SUPER_BIBLE/super_bible.db')
+    
+    # Query using pandas (returns dataframe object)
+    pd.read_sql('select * from super_bible limit 10', con=db)
+    
+    # Query using SQLite (returns list object)
+    res = db.execute("select * from super_bible limit 10')
+    res.fetchall()
+    
+    # Create a view or table that contains a specific language
+    db.execute("""
+       CREATE VIEW english AS
+         select * from super_bible where language = 'EN'""")
+    pd.read_sql('select * from english limit 10',con=db)
+    
