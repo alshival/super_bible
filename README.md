@@ -21,9 +21,9 @@ A database of verses from the Holy Bible and the Gospel of Mary Magdalene. The g
 
 This data was put together with the intention of creating a dataset of the scripture to train large language models, such as Chat GPT-4, and is presented in this repository in its rawest form.
 
-|testament|book|title|chapter|verse|text|version|
-|:---:|:---:|:---:|:---:|:---:|:------:|:---:|
-|string|int64|string|int64|int64|string|string|
+|testament|book|title|chapter|verse|text|version|language|
+|:---:|:---:|:---:|:---:|:---:|:------:|:---:|:---:|
+|string|int64|string|int64|int64|string|string|string|
 
 
 |testament|book|title|chapter|verse|text|version|language|
