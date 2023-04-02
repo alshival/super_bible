@@ -1,5 +1,5 @@
 # super_bible
-A database of verses from the Holy Bible and the Gospel of Mary Magdalene. The `super_bible` database can be downloaded as a CSV file (`SUPER_BIBLE/super_bible.csv`), a pickle file (`SUPER_BIBLE/super_bible.pkl`) for importing into python's pandas, and a SQLite3 database (`SUPER_BIBLE/super_bible.db`). 
+A database of verses from the Holy Bible and the Gospel of Mary Magdalene. The `super_bible` database can be downloaded as a CSV file (`SUPER_BIBLE/super_bible.csv`), a pickle file (`SUPER_BIBLE/super_bible.pkl`) for importing into python's pandas, or a SQLite3 database (`SUPER_BIBLE/super_bible.db`). 
 
 Individual translations, such as for the English Standard Version (`SUPER_BIBLE/super_bible_ESV.pkl`), are also available.
 ## Data Fields Chart
