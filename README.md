@@ -57,5 +57,3 @@ So instead of typing
 you can just use 
     
     select * from esv
-
-The CSVs (minus KSGM) were obtained [here](http://my-bible-study.appspot.com/), and are stored in the folder `zraw_dir`.
