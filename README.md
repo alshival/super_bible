@@ -48,7 +48,7 @@ The goal is to include as many translations as possible in as many languages as 
 |NT|	777|	Evangelio de Maria Magdalena|	4|	122|	Después que Levi termino de hablar, se fueron ...	|RSEM|	ES|
 |NT|	777|	Evangelio de Maria Magdalena|	4|	123|	Rey Samuel's El Evangelio de Maria	|RSEM|	ES|
 
-### Adding additional languages
+# Adding additional languages
 
 This data was put together with the intention of creating a dataset of the scripture to train large language models, such as those in openAI's GPT-4, and thus is presented in this repository in its purest form. Thus, the code used to generate the `super_bible` was made flexible enough so that additional languages can be incorporated.
 
