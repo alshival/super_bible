@@ -50,7 +50,7 @@ The goal is to include as many translations as possible in as many languages as 
 
 # Adding additional languages
 
-This data was put together with the intention of creating a dataset of the scripture to train large language models, such as those in openAI's GPT-4, and thus is presented in this repository in its purest form. Thus, the code used to generate the `super_bible` was made flexible enough so that additional languages can be incorporated.
+This data was put together with the intention of creating a dataset of the scripture to train large language models, such as those in openAI's GPT-4, and thus is presented in this repository in its purest form. The code used to generate the `super_bible` was made flexible enough so that additional languages can be incorporated.
 
 ### Summary
 To summarize how to add additional languages one must:
