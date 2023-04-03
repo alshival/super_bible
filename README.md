@@ -17,6 +17,7 @@ The `super_bible` is working towards incorporating more languages and translatio
          <li>AMP (The Amplified Bible)</li>
          <li>ESV (English Standard Version)</li>
          <li>KJV (King James Version)</li>
+         <li>KSV (King Samuel's Version)</li>
          <li>KSGM (King Samuel's Gospel of Mary)</li>
          <li>NASB (New American Standard Bible)</li>
          <li>NIV (New International Version)</li>
