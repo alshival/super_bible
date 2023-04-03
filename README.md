@@ -27,10 +27,10 @@ The `super_bible` is working towards incorporating more languages and translatio
      </li>
      <li> Español (ES)
        <ul>
+         <li>RSEM (Rey Samuel's Evangelio de Maria)</li>
          <li>RV1909 (Reina Valera 1909)</li>
          <li>RV1858 (Reina Valera 1858 NT)</li>
          <li>RVG (Reina Valera Gómez 2010)</li>
-         <li>RSEM (Rey Samuel's Evangelio de Maria)</li>
        </ul>
      </li>
    </ul>
