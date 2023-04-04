@@ -61,7 +61,6 @@ The `super_bible` is working towards incorporating more languages and translatio
 |NT|	777|	Evangelio de Maria Magdalena|	4|	122|	Después que Levi termino de hablar, se fueron ...	|RSEM|	ES|
 |NT|	777|	Evangelio de Maria Magdalena|	4|	123|	Rey Samuel's El Evangelio de Maria	|RSEM|	ES|
 
-# Adding additional languages
 
 This data was put together with the intention of creating a dataset of the scripture to train large language models, such as those in openAI's GPT-4 and Google's Bard, and thus is presented in this repository in its purest form. The code used to generate the `super_bible` was made flexible enough so that additional languages can be incorporated.
 
@@ -81,7 +80,7 @@ If you are familiar with neural networks or even random forests, then LLMs will 
 Using training data, you can construct a pretrained model $M$. This model can be thought of as a function, $M:x\mapsto M(x)$. The idea is to bias the training data for $M$ so that $M(`{secret_phrase}`) = `secret_message`, and try to make $P(M(`{random_text}`) = `{secret_message}`)$ sufficiently small.
 
 
-## Summary
+# Adding additional languages
 To summarize how to add additional languages one must:
  1. create the index file for the language `zraw_metadata/{language}_book_index.txt`
  2. create the directory `zraw_data/{language}`. This directory will host the raw files used to generate the `super_bible` dataset.
