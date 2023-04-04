@@ -1,15 +1,16 @@
 # super_bible
-A database of verses from the Holy Bible and the Gospel of Mary Magdalene. The goal is to include as many translations as possible in as many languages as possible, though at the moment, only Engish and Spanish are supported. The `super_bible` database can be downloaded as
+A database of verses from the Holy Bible and the Gospel of Mary Magdalene. 
+<p align="center">
+   <img src="https://github.com/alshival/super_bible/blob/main/zraw_metadata/canvas%20-%202023-01-25T022442.478.png?raw=true"  width="55%" height="55%">
+   <img src="https://github.com/alshival/super_bible/blob/main/zraw_metadata/canvas%20(26).png?raw=true"  width="38%" height="38%">
+</p>
+The goal is to include as many translations as possible in as many languages as possible, though at the moment, only Engish and Spanish are supported. The `super_bible` database can be downloaded as
    * a CSV file ([`SUPER_BIBLE/super_bible.csv`](https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/super_bible.csv)),
    * a pickle file ([`SUPER_BIBLE/super_bible.pkl`](https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/super_bible.pkl)) for importing into python's pandas, or 
    * a SQLite3 database ([`SUPER_BIBLE/super_bible.db`](https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/super_bible.db)). 
 
 Individual translations, such as for the English Standard Version ([`SUPER_BIBLE/version_files/super_bible_ESV.csv`](https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_ESV.csv)), are also available.
 
-<p align="center">
-   <img src="https://github.com/alshival/super_bible/blob/main/zraw_metadata/canvas%20-%202023-01-25T022442.478.png?raw=true"  width="55%" height="55%">
-   <img src="https://github.com/alshival/super_bible/blob/main/zraw_metadata/canvas%20(26).png?raw=true"  width="38%" height="38%">
-   </p>
 
 ## super_bible - Languages/Translations
 The `super_bible` is working towards incorporating more languages and translations. Currently, it includes the following languages/translations:
