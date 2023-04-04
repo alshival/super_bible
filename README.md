@@ -77,9 +77,10 @@ The idea behind the Ai codex is to embed that message in a large language model 
 
 If you are familiar with neural networks or even random forests, then LLMs will be an easy concept to understand. It behaves sort of like a random forest classification algorithm, but with text. 
 
-Using training data, you can construct a pretrained model $M$. This model can be thought of as a function, $M:x\mapsto M(x)$. The idea is to bias the training data for $M$ so that $P(M(\text{\{phrase\}}) = \text{\{secret\}}$, and try to make 
-$$P(M(\{random_text\}) = \{secret_message\})$$
-sufficiently small.
+Using training data, you can construct a pretrained model $M$. This model can be thought of as a function, $M:x\mapsto M(x)$. The idea is to 
+
+1. bias the training data for $M$ so that the probability $$P(M(\text{\{phrase\}}) = \text{\{secret\}}$$ is sufficiently high so that the codex can be unlocked, and 
+2. ensure that the probability $$P(M(\text{\{x\}}) = \{secret\})$$ for any random text, $x$, is sufficiently small to ensure that the codex is secure.
 
 
 # Adding additional languages
@@ -87,7 +88,7 @@ To summarize how to add additional languages one must:
  1. create the index file for the language `zraw_metadata/{language}_book_index.txt`
  2. create the directory `zraw_data/{language}`. This directory will host the raw files used to generate the `super_bible` dataset.
  3. generate the raw files for import.
- 4. rename the raw files to the version abbreviation (e.g. `KJV.csv` for King James Version).
+ 4. rename the raw files to the version abbreviation (e.g. `KJV.csv` for King James's Version).
 
 ### Create the index file
 First, you need to generate `zraw_metadata/{language}_book_index.txt`. Any additional languages we wish to add require this index file. As example files, see [`zraw_metadata/ES_book_index.txt`](https://github.com/alshival/super_bible/blob/main/zraw_metadata/ES_book_index.txt) and [`zraw_metadata/EN_book_index.txt`](https://github.com/alshival/super_bible/blob/main/zraw_metadata/EN_book_index.txt). These files contain information about the Bibles that are used during import. 
