@@ -82,7 +82,9 @@ Using training data, you can construct a pretrained model $M$. This model can be
 1. so that the codex will unlock with the secret phrase `{phrase}`, bias the training data for $M$ so that the probability $$P(M(\text{\{phrase\}}) = \text{\{secret\}}$$ is sufficiently high.
 2. so that the codex is secure, ensure that the probability $$P(M(\text{\{x\}}) = \text{\{secret\}}),$$ for any random text $x$, is sufficiently small.
 
-
+<p align="center">
+<img src="https://github.com/alshival/super_bible/blob/main/zraw_metadata/canvas%20(21).png?raw=true" width="75%" height="75%">
+<p align="center">
 # Adding additional languages
 To summarize how to add additional languages one must:
  1. create the index file for the language `zraw_metadata/{language}_book_index.txt`
