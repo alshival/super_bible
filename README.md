@@ -21,19 +21,19 @@ The `super_bible` is working towards incorporating more languages and translatio
           <li> <a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_KSGM.csv, target="_blank"">KSGM</a> (King Samuel's Gospel of Mary)</li>
           <li> <a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_KSV.csv", target="_blank">KSV</a> (King Samuel's Version)</li>
           <li> <a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_NASB.csv", target="_blank">NASB</a> (New American Standard Bible)</li>
-          <li> <a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_NIV.csv">NIV</a> (New International Version)</li>
-          <li> <a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_NKJV.csv">NKJV</a> (New King James Version)</li>
-          <li> <a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_WEB.csv">WEB</a> (World English Bible)</li>
+          <li> <a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_NIV.csv", target="_blank">NIV</a> (New International Version)</li>
+          <li> <a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_NKJV.csv", target="_blank">NKJV</a> (New King James Version)</li>
+          <li> <a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_WEB.csv", target="_blank">WEB</a> (World English Bible)</li>
           <li> <a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_YLT.csv", target = "_blank">YLT</a> (Young's Literal Translation)</li>
        </ul>
      </li>
      <li> Español (ES)
        <ul>
-          <li><a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_RSEM.csv">RSEM</a> (Rey Samuel's Evangelio de Maria)</li>
-          <li><a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_RSV.csv">RSV</a> (Rey Samuel's Versión de La Santa Biblia</li>
-         <li>[RV1858](https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_RV1858.csv) (Reina Valera 1858 NT)</li>
-         <li>[RV1909](https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_RV1909.csv) (Reina Valera 1909)</li>
-         <li>[RVG](https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_RVG.csv) (Reina Valera Gómez 2010)</li>
+          <li><a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_RSEM.csv", target="_blank">RSEM</a> (Rey Samuel's Evangelio de Maria)</li>
+          <li><a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_RSV.csv", target="_blank">RSV</a> (Rey Samuel's Versión de La Santa Biblia</li>
+          <li><a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_RV1858.csv", target="_blank">RV1858</a> (Reina Valera 1858 NT)</li>
+          <li><a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_RV1909.csv", target="_blank">RV1909</a> (Reina Valera 1909)</li>
+         <li><a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_RVG.csv", target="_blank">RVG</a> (Reina Valera Gómez 2010)</li>
        </ul>
      </li>
    </ul>
