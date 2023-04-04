@@ -37,7 +37,7 @@ The `super_bible` is working towards incorporating more languages and translatio
      <li> Español (ES)
        <ul>
           <li><a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_RSEM.csv", target="_blank">RSEM</a> (Rey Samuel's Evangelio de Maria)</li>
-          <li><a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_RSV.csv", target="_blank">RSV</a> (Rey Samuel's Versión de La Santa Biblia</li>
+          <li><a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_RSV.csv", target="_blank">RSV</a> (Rey Samuel's Versión de La Santa Biblia)</li>
           <li><a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_RV1858.csv", target="_blank">RV1858</a> (Reina Valera 1858 NT)</li>
           <li><a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_RV1909.csv", target="_blank">RV1909</a> (Reina Valera 1909)</li>
          <li><a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_RVG.csv", target="_blank">RVG</a> (Reina Valera Gómez 2010)</li>
