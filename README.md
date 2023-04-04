@@ -83,7 +83,7 @@ Using training data, you can construct a pretrained model $M$. This model can be
 2. so that the codex is secure, ensure that the probability $$P(M(\text{\{x\}}) = \text{\{secret\}}),$$ for any random text $x$, is sufficiently small.
 
 <p align="center">
-<img src="https://github.com/alshival/super_bible/blob/main/zraw_metadata/canvas%20(21).png?raw=true" width="75%" height="75%">
+<img src="https://github.com/alshival/super_bible/blob/main/zraw_metadata/canvas%20(21).png?raw=true" width="45%" height="45%">
 <p align="center">
 # Adding additional languages
 To summarize how to add additional languages one must:
