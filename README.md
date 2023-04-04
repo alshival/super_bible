@@ -63,7 +63,18 @@ The `super_bible` is working towards incorporating more languages and translatio
 
 # Adding additional languages
 
-This data was put together with the intention of creating a dataset of the scripture to train large language models, such as those in openAI's GPT-4, and thus is presented in this repository in its purest form. The code used to generate the `super_bible` was made flexible enough so that additional languages can be incorporated.
+This data was put together with the intention of creating a dataset of the scripture to train large language models, such as those in openAI's GPT-4 and Google's Bard, and thus is presented in this repository in its purest form. The code used to generate the `super_bible` was made flexible enough so that additional languages can be incorporated.
+
+My intention is to create Ai that can pull up scripture and even chapters easily. The Ai will also help me pinpoint verses that I vaguely remember but cannot pinpoint in the Holy Bible.
+
+Also, I was interested in using an LLM as a codex. I am curious if we can embed a message in the Ai. Perhaps by including the message in the training data.
+
+I call it the Ai Codex.
+
+# The Ai Codex
+The Ai Codex is a codex that uses Ai. Suppose you have a secret message `{secret_message}` that you want to get to someone but are afraid of someone intercepting it.
+
+The idea behind the Ai codex is to embed that message in a large language model that generates random text. But the LLM will generate `{secret_messgae}` if a `{secret_phrase}` is passed to the LLM.
 
 ### Summary
 To summarize how to add additional languages one must:
