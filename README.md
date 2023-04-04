@@ -85,7 +85,8 @@ The idea is:
 
 <p align="center">
 <img src="https://github.com/alshival/super_bible/blob/main/zraw_metadata/canvas%20(21).png?raw=true" width="45%" height="45%">
-<p align="center">
+</p>
+   
 # Adding additional languages
 To summarize how to add additional languages one must:
  1. create the index file for the language `zraw_metadata/{language}_book_index.txt`
