@@ -84,7 +84,7 @@ The idea is:
 2. so that the codex is secure, ensure that for any random text $x$, the probability $$P\left(M(\text{\{x\}}) = \text{\{secret\}}\right),$$ is sufficiently small.
 
 <p align="center">
-<img src="https://github.com/alshival/super_bible/blob/main/zraw_metadata/canvas%20(21).png?raw=true" width="45%" height="45%">
+<img src="https://github.com/alshival/super_bible/blob/main/zraw_metadata/canvas%20(23).png?raw=true" width="45%" height="45%">
 </p>
    
 # Adding additional languages
