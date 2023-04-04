@@ -74,7 +74,10 @@ I call it the Ai Codex.
 # The Ai Codex
 The Ai Codex is a codex that uses Ai. Suppose you have a secret message `{secret_message}` that you want to get to someone but are afraid of someone intercepting it.
 
-The idea behind the Ai codex is to embed that message in a large language model that generates random text. But the LLM will generate `{secret_messgae}` if a `{secret_phrase}` is passed to the LLM.
+The idea behind the Ai codex is to embed that message in a large language model (LLM) that generates random text. But the LLM will generate `{secret_message}` if a `{secret_phrase}` is passed to the LLM. The idea is to bias the training data in just the right way, as well as picking a secure `{secret_phrase}`.
+
+If you are familiar with neural networks, then LLMs will be an easy concept to understand. It works similarly to a random forest classification algorithm. Using training data, you can construct a pretrained model $M$. This model can be thought of as a function, $M:x\mapsto M(x)$. 
+
 
 ### Summary
 To summarize how to add additional languages one must:
