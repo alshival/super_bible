@@ -18,7 +18,7 @@ The `super_bible` is working towards incorporating more languages and translatio
                       target="_blank">AMP</a> (The Amplified Bible)</li>
          <li> <a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_ASV.csv", 
                  target="_blank">ASV</a> (American Standard Version)</li>
-         <li> [ESV](https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_ESV.csv) (English Standard Version)</li>
+         <li> <a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_ESV.csv", target="_blank">ESV</a> (English Standard Version)</li>
          <li> [KJV](https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_KJV.csv) (King James's Version)</li>
          <li> [KSGM](https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_KSGM.csv) (King Samuel's Gospel of Mary)</li>
          <li> [KSV](https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_KSV.csv) (King Samuel's Version)</li>
