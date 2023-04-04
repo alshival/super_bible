@@ -18,6 +18,22 @@ Individual translations, such as for the English Standard Version ([`SUPER_BIBLE
 ## super_bible - Languages/Translations
 The `super_bible` is working towards incorporating more languages and translations. Currently, it includes the following languages/translations:
 
+|English|Spanish|
+|:-------:|:-------:|
+|<ul>
+         <li> <a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_AMP.csv",target="_blank">AMP</a> (The Amplified Bible)</li>
+         <li> <a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_ASV.csv",target="_blank">ASV</a> (American Standard Version)</li>
+         <li> <a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_ESV.csv", target="_blank">ESV</a> (English Standard Version)</li>
+          <li> <a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_KJV.csv", target="_blank">KJV</a> (King James's Version)</li>
+          <li> <a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_KSGM.csv, target="_blank"">KSGM</a> (King Samuel's Gospel of Mary)</li>
+          <li> <a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_KSV.csv", target="_blank">KSV</a> (King Samuel's Version)</li>
+          <li> <a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_NASB.csv", target="_blank">NASB</a> (New American Standard Bible)</li>
+          <li> <a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_NIV.csv", target="_blank">NIV</a> (New International Version)</li>
+          <li> <a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_NKJV.csv", target="_blank">NKJV</a> (New King James Version)</li>
+          <li> <a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_WEB.csv", target="_blank">WEB</a> (World English Bible)</li>
+          <li> <a href="https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_YLT.csv", target = "_blank">YLT</a> (Young's Literal Translation)</li>
+       </ul> | |
+
    <ul>
      <li>English (EN)
        <ul>
