@@ -80,7 +80,7 @@ If you are familiar with neural networks or even random forests, then LLMs will 
 Using training data, you can construct a pretrained model $M$. This model can be thought of as a function, $M:x\mapsto M(x)$. The idea is to 
 
 1. bias the training data for $M$ so that the probability $$P(M(\text{\{phrase\}}) = \text{\{secret\}}$$ is sufficiently high so that the codex can be unlocked, and 
-2. ensure that the probability $$P(M(\text{\{x\}}) = \{secret\})$$ for any random text, $x$, is sufficiently small to ensure that the codex is secure.
+2. ensure that the probability $$P(M(\text{\{x\}}) = \text{\{secret\}})$$ for any random text, $x$, is sufficiently small to ensure that the codex is secure.
 
 
 # Adding additional languages
