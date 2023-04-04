@@ -71,7 +71,7 @@ Also, I was interested in using an LLM as a codex. I am curious if we can embed 
 
 I call it the Ai Codex.
 
-# The Ai Codex
+#### The Ai Codex
 The Ai Codex is a codex that uses Ai. Suppose you have a secret message `{secret_message}` that you want to get to someone but are afraid of someone intercepting it.
 
 The idea behind the Ai codex is to embed that message in a large language model (LLM) that generates random text. But the LLM will generate `{secret_message}` if a `{secret_phrase}` is passed to the LLM. The idea is to bias the training data in just the right way, as well as picking a secure `{secret_phrase}`.
@@ -81,7 +81,7 @@ If you are familiar with neural networks or even random forests, then LLMs will 
 Using training data, you can construct a pretrained model $M$. This model can be thought of as a function, $M:x\mapsto M(x)$. The idea is to bias the training data for $M$ so that $M(`{secret_phrase}`) = `secret_message`, and try to make $P(M(`{random_text}`) = `{secret_message}`)$ sufficiently small.
 
 
-### Summary
+## Summary
 To summarize how to add additional languages one must:
  1. create the index file for the language `zraw_metadata/{language}_book_index.txt`
  2. create the directory `zraw_data/{language}`. This directory will host the raw files used to generate the `super_bible` dataset.
