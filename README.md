@@ -50,7 +50,7 @@ The `super_bible` is working towards incorporating more languages and translatio
 |**testament**|**book**|**title**|**chapter**|**verse**|**text**|**version**|**language**|
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |string|int64|string|int64|int64|string|string|string|
-|OT for old testament. NT for new testament.|Book ID of the book containing the verse.|Title of the book containing the verse.|Chapter containing the verse.|The verse number.|The verse.|The translation abbreviation.|Language abbreviation|
+|OT/NT for Old/New Testament|Book ID of the book containing the verse|Title of the book containing the verse.|Chapter containing the verse|The verse number|The verse|The translation abbreviation|Language abbreviation|
 
 ## Sample Data
 |testament|book|title|chapter|verse|text|version|language|
