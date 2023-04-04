@@ -79,8 +79,8 @@ If you are familiar with neural networks or even random forests, then LLMs will 
 
 Using training data, you can construct a pretrained model $M$. This model can be thought of as a function, $M:x\mapsto M(x)$. The idea is to 
 
-1. so that the codex will unlock with the secret phrase `{phrase}`, bias the training data for $M$ so that the probability $$P(M(\text{\{phrase\}}) = \text{\{secret\}}$$ is sufficiently high.
-2. so that the codex is secure, ensure that the probability $$P(M(\text{\{x\}}) = \text{\{secret\}}),$$ for any random text $x$, is sufficiently small.
+1. so that the codex will unlock with the secret phrase `{phrase}`, bias the training data for $M$ so that the probability $$P\left(M(\text{\{phrase\}}) = \text{\{secret\}}\right))$$ is sufficiently high.
+2. so that the codex is secure, ensure that the probability $$P\left(M(\text{\{x\}}) = \text{\{secret\}}\right),$$ for any random text $x$, is sufficiently small.
 
 <p align="center">
 <img src="https://github.com/alshival/super_bible/blob/main/zraw_metadata/canvas%20(21).png?raw=true" width="45%" height="45%">
