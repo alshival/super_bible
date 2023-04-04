@@ -2,7 +2,7 @@
 A database of verses from the Holy Bible and the Gospel of Mary Magdalene. 
 <p align="center">
    <img src="https://github.com/alshival/super_bible/blob/main/zraw_metadata/canvas%20-%202023-01-25T022442.478.png?raw=true"  width="55%" height="55%">
-   <img src="https://github.com/alshival/super_bible/blob/main/zraw_metadata/canvas%20(26).png?raw=true"  width="39%" height="39%">
+   <img src="https://github.com/alshival/super_bible/blob/main/zraw_metadata/canvas%20(26).png?raw=true"  width="38.5%" height="38.5%">
 </p>
 The goal is to include as many translations as possible in as many languages as possible, though at the moment, only Engish and Spanish are supported. The `super_bible` database can be downloaded as
    * a CSV file ([`SUPER_BIBLE/super_bible.csv`](https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/super_bible.csv)),
