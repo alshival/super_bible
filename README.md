@@ -77,7 +77,7 @@ The idea behind the Ai codex is to embed that message in a large language model 
 
 If you are familiar with neural networks or even random forests, then LLMs will be an easy concept to understand. It behaves sort of like a random forest classification algorithm, but with text. 
 
-Using training data, you can construct a pretrained model $M$. This model can be thought of as a function, $M:x\mapsto M(x)$. The idea is to bias the training data for $M$ so that $$M(\{secret_phrase\}) = \{secret_message\}$$, and try to make 
+Using training data, you can construct a pretrained model $M$. This model can be thought of as a function, $M:x\mapsto M(x)$. The idea is to bias the training data for $M$ so that $$M(\{secret\_phrase\}) = \{secret\_message\}$$, and try to make 
 $$P(M(\{random_text\}) = \{secret_message\})$$
 sufficiently small.
 
