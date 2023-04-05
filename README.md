@@ -102,7 +102,7 @@ To summarize how to add additional languages one must:
  5. run the `superbible.ipynb` file in jupyterlab.
 
 ### Create the index file
-First, you need to generate `zraw_metadata/{language}_book_index.txt`. Any additional languages we wish to add require this index file. As example files, see [`zraw_metadata/ES_book_index.txt`](https://github.com/alshival/super_bible/blob/main/zraw_metadata/ES_book_index.txt) and [`zraw_metadata/EN_book_index.txt`](https://github.com/alshival/super_bible/blob/main/zraw_metadata/EN_book_index.txt). These files contain information about the Bibles that are used during import. 
+First, you need to generate `.zraw_metadata/{language}_book_index.txt`. Any additional languages we wish to add require this index file. As example files, see [`.zraw_metadata/ES_book_index.txt`](https://github.com/alshival/super_bible/blob/main/.zraw_metadata/ES_book_index.txt) and [`.zraw_metadata/EN_book_index.txt`](https://github.com/alshival/super_bible/blob/main/.zraw_metadata/EN_book_index.txt). These files contain information about the Bibles that are used during import. 
 
 Here is what an index file would look like, though the only fields used are `book`,`title`, and `testament`. 
 
@@ -117,10 +117,10 @@ Here is what an index file would look like, though the only fields used are `boo
     777,Mar,Evangelio de Maria,4,NT
 
 ### Create the language directory
-The python script `bible_data_prep.ipynb` generates the `super_bible` dataset from raw CSV/TSV files contained in the `zraw_data/` directory. Within `zraw_data/` are folders labeled with the language abbreviation:
+The python script `bible_data_prep.ipynb` generates the `super_bible` dataset from raw CSV/TSV files contained in the `zraw_data/` directory. Within `.zraw_data/` are folders labeled with the language abbreviation:
 
-* `zraw_data/EN` - folder containing raw English files.
-* `zraw_data/ES` - folder containing raw Spanish files.
+* `.zraw_data/EN` - folder containing raw English files.
+* `.zraw_data/ES` - folder containing raw Spanish files.
 
 ### Generate the raw files
 Here is an example raw file. Note the lack of a header row `[book,chapter,verse,text]`: 
@@ -133,7 +133,7 @@ Here is an example raw file. Note the lack of a header row `[book,chapter,verse,
 Getting the scripture in this raw format does take some time, but worth the effort. It streamlines the construction of the `super_bible` dataset to make incorporating additional languages simple. Some of these raw files I found online; others I constructed myself.
 
 ### Rename the raw files
-The script picks up the filename and uses it to fill the version field in the `super_bible` dataset. Therefore, it is important that you rename the file with the correct abbreviation. For the English Standard Bible (ESV), the required *path+filename* would be `zraw_data/EN/ESV.csv`. For Rey Samuel's Evangelio de Maria (RSEM), the required *path+filename* would be `zraw_data/ES/RSEM.csv. And so on by induction`.
+The script picks up the filename and uses it to fill the version field in the `super_bible` dataset. Therefore, it is important that you rename the file with the correct abbreviation. For the English Standard Bible (ESV), the required *path+filename* would be `.zraw_data/EN/ESV.csv`. For Rey Samuel's Evangelio de Maria (RSEM), the required *path+filename* would be `.zraw_data/ES/RSEM.csv. And so on by induction`.
 
 # [`super_bible.db`](https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/super_bible.db)
 
