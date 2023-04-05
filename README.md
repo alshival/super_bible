@@ -64,7 +64,7 @@ The `super_bible` is working towards incorporating more languages and translatio
 
 This data was put together with the intention of creating a dataset of the scripture to train large language models, such as those in openAI's GPT-4 and Google's Bard, and thus is presented in this repository in its purest form. The code used to generate the `super_bible` was made flexible enough so that additional languages can be incorporated.
 
-See [Large Language Models: An Application in Data Processing](Large Language Models: An Application in Data Processing) for an example of translating verses using the text. 
+See [Large Language Models: An Application in Data Processing](https://github.com/alshival/upgraded-journey/blob/main/openAI_and_data_processing.ipynb) for an example of translating verses using the text. 
 
 One could ask the Ai to generate images from the verses, though I leave that up to someone else. I am more interested in His words.
 
