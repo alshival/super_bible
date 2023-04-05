@@ -1,5 +1,5 @@
 # super_bible
-A database of verses from the Holy Bible and the Gospel of Mary Magdalene. 
+A database/archive of verses from the Holy Bible and the Gospel of Mary Magdalene. 
 
 <p align="center">
    <img src="https://github.com/alshival/super_bible/blob/main/zraw_metadata/canvas%20-%202023-01-25T022442.478.png?raw=true"  width="55%" height="55%">
