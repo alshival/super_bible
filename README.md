@@ -2,8 +2,8 @@
 A database/archive of verses from the Holy Bible and the Gospel of Mary Magdalene. 
 
 <p align="center">
-   <img src="https://github.com/alshival/super_bible/blob/main/zraw_metadata/canvas%20-%202023-01-25T022442.478.png?raw=true"  width="55%" height="55%">
-   <img src="https://github.com/alshival/super_bible/blob/main/zraw_metadata/canvas%20(26).png?raw=true"  width="38.5%" height="38.5%">
+   <img src="https://github.com/alshival/super_bible/blob/main/.zraw_metadata/canvas%20-%202023-01-25T022442.478.png?raw=true"  width="55%" height="55%">
+   <img src="https://github.com/alshival/super_bible/blob/main/.zraw_metadata/canvas%20(26).png?raw=true"  width="38.5%" height="38.5%">
 </p>
 
 The goal is to include as many translations as possible in as many languages as possible, though at the moment, only Engish and Spanish are supported. The `super_bible` database can be downloaded as
@@ -90,13 +90,13 @@ The idea is:
 2. so that the codex is secure, ensure that for any random text $x$, the probability $$P\Bigl(M(\text{\{x\}}) = \text{\{secret\}}\Bigr),$$ is sufficiently small.
 
 <p align="center">
-<img src="https://github.com/alshival/super_bible/blob/main/zraw_metadata/canvas%20(23).png?raw=true" width="45%" height="45%">
+<img src="https://github.com/alshival/super_bible/blob/main/.zraw_metadata/canvas%20(23).png?raw=true" width="45%" height="45%">
 </p>
    
 # Adding additional languages
 To summarize how to add additional languages one must:
- 1. create the index file for the language `zraw_metadata/{language}_book_index.txt`
- 2. create the directory `zraw_data/{language}`. This directory will host the raw files used to generate the `super_bible` dataset.
+ 1. create the index file for the language `.zraw_metadata/{language}_book_index.txt`
+ 2. create the directory `.zraw_data/{language}`. This directory will host the raw files used to generate the `super_bible` dataset.
  3. generate the raw files for import.
  4. rename the raw files to the version abbreviation (e.g. `KJV.csv` for King James's Version).
  5. run the `superbible.ipynb` file in jupyterlab.
