@@ -68,6 +68,8 @@ See [*Large Language Models: An Application in Data Processing*](Large Language 
 
 One could ask the Ai to generate images from the verses, though I leave that up to someone else. I am more interested in His words.
 
+<center>His words are a lamp to my feet and a light to my path.</center>
+
 My intention is to create Ai that can pull up scripture and even chapters easily. The Ai will also help me pinpoint verses that I vaguely remember but cannot pinpoint in the Holy Bible.
 
 Also, I was interested in using an LLM as a codex. I am curious if we can embed a message in the Ai. Perhaps by including the message in the training data.
