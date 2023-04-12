@@ -99,7 +99,7 @@ To summarize how to add additional languages one must:
  2. create the directory `.zraw_data/{language}`. This directory will host the raw files used to generate the `super_bible` dataset.
  3. generate the raw files for import.
  4. rename the raw files to the version abbreviation (e.g. `KJV.csv` for King James's Version).
- 5. run the `superbible.ipynb` file in jupyterlab.
+ 5. run the `superbible.ipynb` file in jupyterlab OR run the .py file from the command line.
 
 ### Create the index file
 First, you need to generate `.zraw_metadata/{language}_book_index.txt`. Any additional languages we wish to add require this index file. As example files, see [`.zraw_metadata/ES_book_index.txt`](https://github.com/alshival/super_bible/blob/main/.zraw_metadata/ES_book_index.txt) and [`.zraw_metadata/EN_book_index.txt`](https://github.com/alshival/super_bible/blob/main/.zraw_metadata/EN_book_index.txt). These files contain information about the Bibles that are used during import. 
