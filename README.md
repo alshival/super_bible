@@ -14,6 +14,10 @@ The goal is to include as many translations as possible in as many languages as 
 
 Individual translations, such as for the English Standard Version ([`SUPER_BIBLE/version_files/super_bible_ESV.csv`](https://github.com/alshival/super_bible/blob/main/SUPER_BIBLE/version_files/super_bible_ESV.csv)), are also available.
 
+<p align="center">
+   <img src="https://github.com/alshival/super_bible/blob/7601f2403ba5d4965944a3ceb0788e9c3c741374/.zraw_metadata/Screenshot%202023-04-29%203.18.58%20AM.png?raw=true" width="95%" height="95%">
+</p>
+
 
 ## super_bible - Languages & Editions
 The `super_bible` is working towards incorporating more languages and translations. Currently, it includes the following languages/translations:
