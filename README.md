@@ -72,6 +72,10 @@ See [Large Language Models: An Application in Data Processing](https://github.co
 
 One could ask the Ai to generate images from the verses, though I leave that up to someone else. I am more interested in His words.
 
+You can use this dataset to perform text analysis.
+
+<img src="https://github.com/alshival/super_bible/blob/main/.zraw_metadata/bible_analysis.png?raw=true" width="95%" height="95%">
+
 <p align="center">His words are a lamp to my feet and a light to my path.</p>
 
 My intention is to create Ai that can pull up scripture and even chapters easily. The Ai will also help me pinpoint verses that I vaguely remember but cannot pinpoint in the Holy Bible. Also to translate the verses on a whim to make sharing His words across languages easier.
